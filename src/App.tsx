@@ -7,7 +7,7 @@ function App() {
 
       <Stopwatch />
 
-      {/* <Employees /> */}
+      {/* <Employers /> */}
     </main>
   )
 }
