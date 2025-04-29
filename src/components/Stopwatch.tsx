@@ -6,7 +6,7 @@ const Stopwatch = () => {
   // 1. Починить секундомер и логи
   // 2. Сделать возможность запускать секундомер заново по той же кнопке
 
-  const start = () => {
+  function start() {
     setSeconds(0)
     setInterval(() => {
       setSeconds(seconds + 1)
